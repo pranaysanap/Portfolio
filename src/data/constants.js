@@ -1,3 +1,6 @@
+import todo from '.././images/todo.jpg'
+import fantasy from '.././images/fantasy.jpg'
+import social from '.././images/socialmedia.jpg'
 export const Bio = {
     name: "Sanap Pranay",
     roles: [
@@ -156,7 +159,7 @@ export const Bio = {
   
   export const education = [
     {
-      id: 1,
+      id: 0,
       img: "https://www.spit.ac.in/wp-content/uploads/2021/01/LogoSPIT.png",
       school: "Bharatiya Vidya Bhavan's Sardar Patel Institute of Technology",
       date: "Aug 2024 - Present",
@@ -190,7 +193,7 @@ export const Bio = {
       title: "Fantasy 11 Predictor",
       date: "Jan 2025 - Feb 2025",
       description: "  The Fantasy Prediction 11 Web App is a cutting-edge platform designed for cricket and other fantasy sports enthusiasts. It empowers users to create their best fantasy team by providing data-driven player recommendations and insightful predictions. The app analyzes historical performance, player stats, match conditions, and opposition strengths to deliver an optimized fantasy team for upcoming matches.",
-      image: "project image",
+      image: fantasy,
       tags: [
         "React Js",
         "Langflow",
@@ -209,7 +212,7 @@ export const Bio = {
       description:
         "InfluenceIQ is an AI-driven social media analytics platform designed to provide deep insights into social media engagement and content strategies. By leveraging Generative AI (GenAI) technologies, the platform processes user account data and answers insightful questions about content performance, audience engagement, and strategic improvements.",
       image:
-        "imagelink",
+        social,
       tags: [
         "React Js",
         "Langflow",
@@ -224,51 +227,26 @@ export const Bio = {
       webapp: "link",
     },
     {
-      id: 4,
-      title: "Weather App ",
-      date: "Jan 2024 ",
-      description:
-        "Stay ahead of the forecast with our cutting-edge React JS weather app, powered by the OpenWeather API. Effortlessly track current weather conditions, hourly forecasts, and extended outlooks with intuitive navigation and sleek design. With real-time updates and accurate data, our app ensures you're always prepared for whatever Mother Nature throws your way. Whether you're planning outdoor activities or simply staying informed, our React JS weather app has you covered, rain or shine.",
-      image:
-        "",
-      tags: ["React JS", "OpenWeather API", "Axios",],
-      category: "web app",
-      github: "",
-      webapp: "",
-    }, {
       id: 2,
       title: "To-do App ",
       date: "Jan 2024",
       description:
         "Elevate your productivity with our MERN stack to-do app, enhanced with Redux for streamlined state management. Seamlessly organize your tasks, set priorities, and track progress with intuitive features designed to keep you focused and on track. With MongoDB, Express.js, React.js, Node.js, and Redux working together, our app offers a seamless user experience, empowering you to conquer your to-do lists efficiently.",
       image:
-        "",
+        todo,
         tags: [
           "React Js",
-          "MongoDb",
-          "Node Js",
-          "Express Js",
-          "Redux",
-          "MUI",
-          "Axios",
+          "Java Script",
+          "CSS",
+          "BootStrap",
+          "Local Storage",
+          "HTML",
         ],
       category: "web app",
       github: "",
       webapp: "",
     },
-    {
-      id: 4,
-      title: "Filmzo",
-      date: "Dec 2023",
-      description:
-        "An ott platform",
-      image:
-        "",
-      tags: ["PHP", "BootStrap", "MySql", "Java Script","CSS"],
-      category: "web app",
-      github: "",
-      webapp: "",
-    },
+    
   ];
   
   export const TimeLineData = [
