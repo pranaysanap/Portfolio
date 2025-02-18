@@ -144,7 +144,7 @@ export const Bio = {
       company: "V2V edTech",
       date: "June 2023 - July 2023",
       desc: "•	I completed a full-stack web development internship at an edtech company, where I contributed to building and optimizing user-centric web applications, enhancing both front-end interfaces and back-end functionalities.",
-      doc: "certificate link",
+      doc: "",
     },
     {
       id: 1,
@@ -153,7 +153,7 @@ export const Bio = {
       company: "Personal Project",
       date: "March 2024 - May 2024",
       desc: "Designed and developed an IoT-based Smart Watering System using Arduino, enabling remote plant watering from anywhere in the world.",
-      doc: "certificate"
+      doc: ""
     },
   ];
   
